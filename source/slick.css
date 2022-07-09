@@ -1,0 +1,29 @@
+:focus { outline:none; } /*í´ë¦­ì‹œ í…Œë‘ë¦¬ ì‚­ì œ */
+
+.slick-img{
+    overflow-x: hidden !important;
+} /*ê°€ë¡œìŠ¤í¬ë¡¤ ì œê±°*/
+
+.slick-img{
+    position: relative;  
+}
+.slick-img button{
+    position: absolute;  z-index: 99; top: 50%; transform:translateY(-50%); background-color: transparent; border: transparent; cursor:pointer;
+}
+
+.slick-img button:before{
+    font-family: "xeicon"; color: #fff; font-size: 70px; filter: drop-shadow(1px 1px 1px #c2c2c2);
+}
+
+.slick-img button.slick-prev{
+    left: 0; font-size: 0;  color: transparent;
+}
+.slick-img button.slick-prev:before{content: "\e93d";}
+
+.slick-img button.slick-next{
+    right: 0; font-size: 0;  color: transparent;
+}
+.slick-img button.slick-next:before{content:  "\e940 ";}
+
+
+
